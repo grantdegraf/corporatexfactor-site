@@ -1,0 +1,28 @@
+{
+  "project": "Corporate X-Factor",
+  "system_status": "initialized",
+  "initialized_at": "2026-03-06T09:01:00Z",
+  "pipelines": {
+    "attorney_network": "active",
+    "plaintiff_prospect": "active",
+    "unmonetized_judgment_detection": "active",
+    "recovery_analysis": "active"
+  },
+  "pipeline_flow": [
+    "judgment_discovery",
+    "collectability_analysis",
+    "gatekeeper_exposure_assessment",
+    "attorney_network_matching",
+    "plaintiff_outreach",
+    "recovery_strategy"
+  ],
+  "namespace": "corporate_x_factor/",
+  "subdirectories": [
+    "corporate_x_factor/attorney_network/",
+    "corporate_x_factor/plaintiff_prospects/",
+    "corporate_x_factor/judgment_discovery/",
+    "corporate_x_factor/recovery_analysis/"
+  ],
+  "separation_from_courtready": true,
+  "version": "1.0.0"
+}

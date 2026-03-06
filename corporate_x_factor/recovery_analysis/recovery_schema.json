@@ -1,0 +1,37 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "RecoveryAnalysisRecord",
+  "type": "object",
+  "required": ["case_id", "collectability_score", "gatekeeper_candidates", "settlement_viability_score"],
+  "properties": {
+    "case_id": { "type": "string" },
+    "case_name": { "type": "string" },
+    "collectability_score": { "type": "integer", "minimum": 60, "maximum": 100 },
+    "gatekeeper_candidates": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "gatekeeper_type": {
+            "type": "string",
+            "enum": ["auditor", "insurer", "financial_institution", "escrow_agent", "professional_advisor"]
+          },
+          "entity_name": { "type": "string" },
+          "exposure_estimate": { "type": "number" }
+        }
+      }
+    },
+    "insurance_exposure": {
+      "type": "object",
+      "properties": {
+        "carrier": { "type": "string" },
+        "estimated_coverage": { "type": "number" },
+        "policy_type": { "type": "string" }
+      }
+    },
+    "settlement_viability_score": { "type": "integer", "minimum": 0, "maximum": 100 },
+    "matched_attorney_ids": { "type": "array", "items": { "type": "string" } },
+    "recovery_strategy": { "type": "string", "enum": ["settlement_leverage", "gatekeeper_demand", "litigation_referral"] },
+    "analyzed_at": { "type": "string", "format": "date-time" }
+  }
+}

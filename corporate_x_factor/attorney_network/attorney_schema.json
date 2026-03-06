@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "AttorneyRecord",
+  "type": "object",
+  "required": ["attorney_id", "attorney_name", "firm_name", "practice_area", "location"],
+  "properties": {
+    "attorney_id": { "type": "string" },
+    "attorney_name": { "type": "string" },
+    "firm_name": { "type": "string" },
+    "practice_area": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": [
+          "fraud_recovery",
+          "insurance_coverage_disputes",
+          "professional_liability",
+          "asset_recovery",
+          "complex_commercial_enforcement"
+        ]
+      }
+    },
+    "relevant_cases": { "type": "array", "items": { "type": "string" } },
+    "location": { "type": "string" },
+    "contact_information": {
+      "type": "object",
+      "properties": {
+        "email": { "type": "string" },
+        "phone": { "type": "string" },
+        "website": { "type": "string" }
+      }
+    },
+    "created_at": { "type": "string", "format": "date-time" },
+    "source": { "type": "string" }
+  }
+}

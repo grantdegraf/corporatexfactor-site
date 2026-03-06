@@ -1,0 +1,21 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "JudgmentRecord",
+  "type": "object",
+  "required": ["case_id", "case_name", "court", "judgment_amount", "plaintiff_name", "defendant_name", "judgment_date"],
+  "properties": {
+    "case_id": { "type": "string" },
+    "case_name": { "type": "string" },
+    "court": { "type": "string" },
+    "judgment_amount": { "type": "number" },
+    "plaintiff_name": { "type": "string" },
+    "defendant_name": { "type": "string" },
+    "judgment_date": { "type": "string", "format": "date" },
+    "collectability_risk": {
+      "type": "string",
+      "enum": ["low", "medium", "high", "critical"]
+    },
+    "risk_signals": { "type": "array", "items": { "type": "string" } },
+    "created_at": { "type": "string", "format": "date-time" }
+  }
+}

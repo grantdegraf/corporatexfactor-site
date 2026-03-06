@@ -1,0 +1,31 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "DiscoveryRecord",
+  "type": "object",
+  "required": ["case_name", "judgment_amount", "collectability_score", "risk_signals", "detected_at"],
+  "properties": {
+    "case_id": { "type": "string" },
+    "case_name": { "type": "string" },
+    "judgment_amount": { "type": "number" },
+    "collectability_score": { "type": "integer", "minimum": 0, "maximum": 100 },
+    "risk_signals": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": [
+          "defendant offshore",
+          "fraud finding",
+          "assets not located",
+          "defendant insolvent",
+          "corporate dissolution",
+          "cross-border asset barrier",
+          "bankruptcy filed"
+        ]
+      }
+    },
+    "court": { "type": "string" },
+    "judgment_date": { "type": "string", "format": "date" },
+    "detected_at": { "type": "string", "format": "date-time" },
+    "routed_to_recovery": { "type": "boolean", "default": false }
+  }
+}

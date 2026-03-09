@@ -1,0 +1,15 @@
+{
+  "attorney_id": "atty_014",
+  "attorney_name": "Diamond McCarthy Professional Liability Team",
+  "firm_name": "Diamond McCarthy LLP",
+  "practice_area": ["professional_liability", "auditor_liability", "complex_commercial_litigation"],
+  "specialization": "Professional liability litigation; negligence and audit interference matters; professional services malpractice",
+  "relevant_cases": ["Audit malpractice matters", "Professional liability complex commercial litigation"],
+  "location": "Houston, TX / multiple",
+  "contact_information": {"website": "https://www.diamondmccarthy.com/practice/complex-commercial-litigation/professional-liability-litigation/"},
+  "discovery_source": "Firm practice page",
+  "fit_score": 79,
+  "gatekeeper_focus": ["auditors", "professional advisors"],
+  "rating": "Tier 2 — boutique",
+  "notes": "Handles audit-interference as defense — understands auditor liability mechanics from both sides."
+}

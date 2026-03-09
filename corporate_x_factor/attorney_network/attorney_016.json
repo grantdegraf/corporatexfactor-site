@@ -1,0 +1,15 @@
+{
+  "attorney_id": "atty_016",
+  "attorney_name": "Cohen Ziffer Frenchman & McKenna Insurance Recovery Team",
+  "firm_name": "Cohen Ziffer Frenchman & McKenna LLP",
+  "practice_area": ["insurance_recovery", "complex_fraud_litigation"],
+  "specialization": "Insurance recovery; policyholder-side coverage disputes; fraud-related coverage litigation",
+  "relevant_cases": ["Medidata Solutions $4.8M computer fraud insurance recovery", "Insurance coverage disputes across lines"],
+  "location": "New York, NY",
+  "contact_information": {"website": "https://www.cohenziffer.com/services/insurance-recovery/"},
+  "discovery_source": "Firm practice page",
+  "fit_score": 84,
+  "gatekeeper_focus": ["insurers", "carriers"],
+  "rating": "Tier 2 — insurance recovery boutique",
+  "notes": "Policyholder-side insurance recovery boutique. Directly applicable for insurer gatekeeper settlement leverage."
+}

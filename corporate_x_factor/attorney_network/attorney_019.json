@@ -1,0 +1,15 @@
+{
+  "attorney_id": "atty_019",
+  "attorney_name": "Katten Muchin Insurance Recovery Team",
+  "firm_name": "Katten Muchin Rosenman LLP",
+  "practice_area": ["insurance_recovery", "fraud_litigation", "complex_commercial_litigation"],
+  "specialization": "Insurance and healthcare fraud litigation; aggressively pursues recovery of fraudulently obtained payments",
+  "relevant_cases": ["Insurance fraud recovery matters", "Recovery of fraudulently obtained payments"],
+  "location": "New York, NY / Chicago, IL (national)",
+  "contact_information": {"website": "https://katten.com/insuranceandhealthcarefraudlitigation"},
+  "discovery_source": "Firm practice page",
+  "fit_score": 81,
+  "gatekeeper_focus": ["insurers", "carriers"],
+  "rating": "Tier 1 — AmLaw 100",
+  "notes": "Strong insurer-facing litigation. Applicable for carrier gatekeeper exposure."
+}

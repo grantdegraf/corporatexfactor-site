@@ -1,0 +1,15 @@
+{
+  "attorney_id": "atty_010",
+  "attorney_name": "Max Berger",
+  "firm_name": "Bernstein Litowitz Berger & Grossmann LLP",
+  "practice_area": ["securities_fraud", "corporate_governance", "gatekeeper_liability", "complex_fraud_litigation"],
+  "specialization": "Co-founder; securities fraud litigation; landmark gatekeeper and third-party recovery matters",
+  "relevant_cases": ["Lehman Brothers", "WorldCom (underwriter settlements)", "Delphi Corporation", "SVB", "Multiple record-setting recoveries"],
+  "location": "New York, NY",
+  "contact_information": {"website": "https://www.blbglaw.com"},
+  "discovery_source": "Legal directory / published cases",
+  "fit_score": 91,
+  "gatekeeper_focus": ["underwriters", "banks", "auditors"],
+  "rating": "Tier 1",
+  "notes": "Firm founder with 35+ years landmark securities fraud recovery. Explicit underwriter settlement practice applicable here."
+}

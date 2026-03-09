@@ -1,0 +1,15 @@
+{
+  "attorney_id": "atty_017",
+  "attorney_name": "Motley Rice Securities Team",
+  "firm_name": "Motley Rice LLC",
+  "practice_area": ["securities_fraud", "complex_fraud_litigation", "auditor_liability"],
+  "specialization": "Securities fraud; shareholder derivative claims; post-fraud recovery; auditor and third-party gatekeeper liability; international litigation",
+  "relevant_cases": ["Multiple securities fraud class actions", "Consumer fraud recovery ($100M+ Google settlement)", "International client representation"],
+  "location": "Charleston, SC (national reach)",
+  "contact_information": {"email": "securities@motleyrice.com", "website": "https://www.motleyrice.com"},
+  "discovery_source": "Firm website / Chambers ranking",
+  "fit_score": 85,
+  "gatekeeper_focus": ["auditors", "third-party gatekeepers"],
+  "rating": "Tier 1 — Chambers ranked 2025",
+  "notes": "Expanding securities practice (new hires Jan 2026). International litigation experience relevant to foreign entity judgment scenario."
+}

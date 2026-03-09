@@ -1,0 +1,15 @@
+{
+  "attorney_id": "atty_012",
+  "attorney_name": "Jeremy R. Schulze",
+  "firm_name": "Clyde & Co",
+  "practice_area": ["insurance_recovery", "fraud_white_collar", "professional_liability"],
+  "specialization": "Insurance coverage litigation; fraud and white-collar crime; professional services liability; internal investigations",
+  "relevant_cases": ["Lapping scheme fraud recovery", "Insurance fraud recovery matters", "Professional services liability"],
+  "location": "Multiple U.S. offices",
+  "contact_information": {"website": "https://www.clydeco.com/en/people/s/jeremy-r-schulze"},
+  "discovery_source": "Firm professional profile",
+  "fit_score": 83,
+  "gatekeeper_focus": ["insurers", "professional advisors"],
+  "rating": "Tier 1 — Clyde & Co (global insurance litigation specialist)",
+  "notes": "Globally recognized insurance coverage litigation firm. Strong for insurer-gatekeeper recovery angle."
+}

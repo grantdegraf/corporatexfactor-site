@@ -1,0 +1,15 @@
+{
+  "attorney_id": "atty_020",
+  "attorney_name": "Mayer Brown International Enforcement Team",
+  "firm_name": "Mayer Brown LLP",
+  "practice_area": ["international_enforcement", "asset_recovery", "professional_liability", "complex_fraud_litigation"],
+  "specialization": "International enforcement and asset recovery; Japanese bank fraud recovery with injunctions; professional liability (auditor bilateral knowledge)",
+  "relevant_cases": ["Japanese banking corporation fraud — obtained injunctions, initiated recovery in US operations", "Deloitte & Touche FL state court (auditor liability)", "National law firms malpractice series"],
+  "location": "New York, NY / Chicago, IL (global)",
+  "contact_information": {"website": "https://www.mayerbrown.com/en/services/international-enforcement-and-asset-recovery"},
+  "discovery_source": "Firm practice page",
+  "fit_score": 87,
+  "gatekeeper_focus": ["auditors", "financial institutions", "professional advisors"],
+  "rating": "Tier 1 — AmLaw 25",
+  "notes": "Direct precedent: Japanese bank fraud recovery via injunctions mirrors Chinese entity judgment enforcement scenario."
+}

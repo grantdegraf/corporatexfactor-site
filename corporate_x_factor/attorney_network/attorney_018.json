@@ -1,0 +1,15 @@
+{
+  "attorney_id": "atty_018",
+  "attorney_name": "Holland & Knight Asset Recovery Team",
+  "firm_name": "Holland & Knight LLP",
+  "practice_area": ["asset_recovery", "fraud_recovery", "complex_fraud_litigation"],
+  "specialization": "Asset recovery; clawback and fraudulent conveyance claims; breach of fiduciary duty; enforcement of judgments; insurance fraud recovery",
+  "relevant_cases": ["Asset recovery across multiple industries", "Judgment and arbitral award enforcement", "Insurance fraud and recovery matters"],
+  "location": "National (multiple offices)",
+  "contact_information": {"website": "https://www.hklaw.com/en/services/practices/litigation-and-dispute-resolution/asset-recovery"},
+  "discovery_source": "Firm practice page",
+  "fit_score": 83,
+  "gatekeeper_focus": ["insurers", "fiduciaries", "financial institutions"],
+  "rating": "Tier 1 — AmLaw 100",
+  "notes": "Explicit fraudulent conveyance and post-judgment enforcement practice."
+}

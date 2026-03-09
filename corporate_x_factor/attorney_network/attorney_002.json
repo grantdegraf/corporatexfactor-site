@@ -1,0 +1,15 @@
+{
+  "attorney_id": "atty_002",
+  "attorney_name": "Darren Check",
+  "firm_name": "Kessler Topaz Meltzer & Check, LLP",
+  "practice_area": ["auditor_liability", "accounting_fraud", "securities_fraud", "complex_fraud_litigation"],
+  "specialization": "Accounting fraud allegations; auditor insufficiency claims; post-fraud investor recovery",
+  "relevant_cases": ["Catalent ($78M recovery, accounting fraud — Dec 2025)", "Celgene ($239M)", "WorldCom", "Tyco International"],
+  "location": "280 King of Prussia Rd, Radnor, PA 19087",
+  "contact_information": {"email": "dcheck@ktmc.com", "phone": "610-822-2235", "website": "https://www.ktmc.com"},
+  "discovery_source": "Legal directory / firm website",
+  "fit_score": 91,
+  "gatekeeper_focus": ["auditors", "accountants"],
+  "rating": "Tier 1",
+  "notes": "Direct contact available. Recent $78M accounting fraud recovery (Dec 2025) confirms active practice."
+}

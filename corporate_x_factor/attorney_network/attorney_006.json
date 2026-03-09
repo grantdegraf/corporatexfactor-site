@@ -1,0 +1,15 @@
+{
+  "attorney_id": "atty_006",
+  "attorney_name": "Gonzalo S. Zeballos",
+  "firm_name": "BakerHostetler LLP",
+  "practice_area": ["international_asset_tracing", "cross_border_enforcement", "complex_fraud_litigation"],
+  "specialization": "International asset tracing since 2009; piercing beneficial ownership structures in financial havens (Cayman Islands, BVI, Switzerland)",
+  "relevant_cases": ["Multiple multi-hundred million offshore fraud recoveries via BakerHostetler"],
+  "location": "New York, NY",
+  "contact_information": {"website": "https://www.bakerlaw.com"},
+  "discovery_source": "Firm practice page",
+  "fit_score": 88,
+  "gatekeeper_focus": ["offshore structures", "financial institutions"],
+  "rating": "Tier 1",
+  "notes": "Specialist in piercing offshore structures — directly applicable to Chinese entity defendant scenario."
+}

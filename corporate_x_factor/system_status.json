@@ -1,12 +1,14 @@
 {
   "project": "Corporate X-Factor",
-  "system_status": "initialized",
+  "system_status": "operational",
   "initialized_at": "2026-03-06T09:01:00Z",
+  "last_run_at": "2026-03-09T21:00:00Z",
   "pipelines": {
     "attorney_network": "active",
     "plaintiff_prospect": "active",
     "unmonetized_judgment_detection": "active",
-    "recovery_analysis": "active"
+    "recovery_analysis": "active",
+    "gatekeeper_recovery": "active"
   },
   "pipeline_flow": [
     "judgment_discovery",
@@ -16,13 +18,29 @@
     "plaintiff_outreach",
     "recovery_strategy"
   ],
+  "attorney_network_stats": {
+    "total_attorneys": 20,
+    "tier_1_count": 13,
+    "tier_2_count": 4,
+    "avg_fit_score": 86.1,
+    "top_fit_score": 93,
+    "last_discovery_run": "2026-03-09T21:00:00Z",
+    "gatekeeper_focus_distribution": {
+      "auditors": 10,
+      "financial_institutions": 8,
+      "insurers": 6,
+      "professional_advisors": 9,
+      "offshore_structures": 2,
+      "fiduciaries": 3,
+      "underwriters": 3
+    }
+  },
+  "outreach_queue": {
+    "total_drafts": 6,
+    "status": "pending_operator_approval",
+    "location": "corporate_x_factor/outreach_queue/gatekeeper_recovery_attorneys/"
+  },
   "namespace": "corporate_x_factor/",
-  "subdirectories": [
-    "corporate_x_factor/attorney_network/",
-    "corporate_x_factor/plaintiff_prospects/",
-    "corporate_x_factor/judgment_discovery/",
-    "corporate_x_factor/recovery_analysis/"
-  ],
   "separation_from_courtready": true,
-  "version": "1.0.0"
+  "version": "2.0.0"
 }

@@ -1,0 +1,15 @@
+{
+  "attorney_id": "atty_007",
+  "attorney_name": "Howard K. Jeruchimowitz",
+  "firm_name": "Greenberg Traurig LLP",
+  "practice_area": ["asset_recovery", "post_judgment_recovery", "complex_fraud_litigation", "third_party_recovery"],
+  "specialization": "Post-judgment asset recovery; fraudulent transfer; alter ego and veil piercing litigation",
+  "relevant_cases": ["International fraud recovery matters ($50M+)", "Post-judgment proceedings and veil piercing litigation"],
+  "location": "Chicago, IL (national reach)",
+  "contact_information": {"website": "https://www.gtlaw.com/en/professionals/j/jeruchimowitz-howard-k"},
+  "discovery_source": "Firm professional profile",
+  "fit_score": 87,
+  "gatekeeper_focus": ["professional advisors", "financial institutions"],
+  "rating": "Tier 1 — Who's Who Legal Asset Recovery",
+  "notes": "Who's Who Legal Asset Recovery recognition. Post-judgment veil-piercing expertise directly on point."
+}

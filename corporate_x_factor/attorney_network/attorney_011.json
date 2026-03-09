@@ -1,0 +1,15 @@
+{
+  "attorney_id": "atty_011",
+  "attorney_name": "King & Spalding Professional Liability Team",
+  "firm_name": "King & Spalding LLP",
+  "practice_area": ["professional_liability", "auditor_malpractice", "complex_fraud_litigation"],
+  "specialization": "Auditing malpractice; lead counsel in four auditing malpractice matters (recent years); professional liability",
+  "relevant_cases": ["Four auditing malpractice lead counsel matters (recent years)"],
+  "location": "Atlanta, GA / New York, NY (national)",
+  "contact_information": {"website": "https://www.kslaw.com/capabilities/professional-liability"},
+  "discovery_source": "Firm practice page",
+  "fit_score": 82,
+  "gatekeeper_focus": ["auditors", "professional advisors"],
+  "rating": "Tier 1 — AmLaw 100",
+  "notes": "Strong auditor malpractice practice. Useful for auditor-gatekeeper recovery component."
+}

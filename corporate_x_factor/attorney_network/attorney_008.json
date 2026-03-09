@@ -1,0 +1,15 @@
+{
+  "attorney_id": "atty_008",
+  "attorney_name": "Scott Mendeloff",
+  "firm_name": "Greenberg Traurig LLP",
+  "practice_area": ["international_fraud", "complex_fraud_litigation", "asset_recovery"],
+  "specialization": "International fraud litigation; joint recovery arrangements with DOJ",
+  "relevant_cases": ["French corporation $50M+ international fraud — joint arrangement with U.S. DOJ"],
+  "location": "Chicago, IL",
+  "contact_information": {"website": "https://www.gtlaw.com/en/professionals/m/mendeloff-scott"},
+  "discovery_source": "Firm professional profile",
+  "fit_score": 85,
+  "gatekeeper_focus": ["professional advisors", "international structures"],
+  "rating": "Tier 1",
+  "notes": "Experience coordinating with government enforcement — valuable where gatekeeper exposure overlaps with regulatory liability."
+}

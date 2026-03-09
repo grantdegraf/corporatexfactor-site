@@ -1,0 +1,15 @@
+{
+  "attorney_id": "atty_003",
+  "attorney_name": "David Kessler",
+  "firm_name": "Kessler Topaz Meltzer & Check, LLP",
+  "practice_area": ["securities_fraud", "auditor_liability", "complex_fraud_litigation"],
+  "specialization": "Securities fraud class actions; auditor and professional gatekeeper liability",
+  "relevant_cases": ["Tyco International (lead counsel)", "Major pharmaceutical securities fraud settlements in SDNY"],
+  "location": "Radnor, PA (national reach)",
+  "contact_information": {"website": "https://www.ktmc.com/people/david-kessler", "phone": "610-822-2235"},
+  "discovery_source": "Legal directory / firm website",
+  "fit_score": 89,
+  "gatekeeper_focus": ["auditors", "professional advisors"],
+  "rating": "Tier 1",
+  "notes": "Firm founder. Leads complex fraud litigation with auditor liability component."
+}

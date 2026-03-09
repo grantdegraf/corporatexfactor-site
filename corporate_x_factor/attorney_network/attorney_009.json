@@ -1,0 +1,15 @@
+{
+  "attorney_id": "atty_009",
+  "attorney_name": "Jonathan R. Barr",
+  "firm_name": "BakerHostetler LLP",
+  "practice_area": ["fraud_recovery", "securities_fraud", "complex_fraud_litigation"],
+  "specialization": "Former AUSA and DOJ Fraud Section; former SEC Senior Counsel; post-fraud recovery; gatekeeper and professional liability",
+  "relevant_cases": ["DOJ Fraud Section matters", "SEC enforcement cases with recovery components"],
+  "location": "Washington, D.C.",
+  "contact_information": {"website": "https://www.bakerlaw.com"},
+  "discovery_source": "Firm practice page",
+  "fit_score": 86,
+  "gatekeeper_focus": ["auditors", "professional advisors", "insurers"],
+  "rating": "Tier 1",
+  "notes": "Government background (DOJ/SEC) creates credibility in gatekeeper exposure arguments and settlement leverage positioning."
+}

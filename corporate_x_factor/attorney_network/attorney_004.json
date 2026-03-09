@@ -1,0 +1,15 @@
+{
+  "attorney_id": "atty_004",
+  "attorney_name": "John Rizio-Hamilton",
+  "firm_name": "Bernstein Litowitz Berger & Grossmann LLP",
+  "practice_area": ["securities_fraud", "underwriter_liability", "complex_fraud_litigation", "insurance_recovery"],
+  "specialization": "Securities fraud; underwriter gatekeeper liability; bank and financial institution fraud recovery",
+  "relevant_cases": ["JPMorgan Chase $150M recovery", "Viacom-Archegos $3.3B (third-largest securities fraud settlement in history)", "Wilmington Trust bank fraud conspiracy", "SVB Securities Litigation", "Lehman Brothers"],
+  "location": "New York, NY",
+  "contact_information": {"website": "https://www.blbglaw.com"},
+  "discovery_source": "Legal directory / published cases",
+  "fit_score": 93,
+  "gatekeeper_focus": ["underwriters", "banks", "financial institutions"],
+  "rating": "Tier 1 — multiple landmark recoveries",
+  "notes": "Highest fit score. $3.3B Viacom-Archegos recovery is directly relevant precedent for financial institution gatekeeper exposure."
+}

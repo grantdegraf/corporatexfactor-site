@@ -1,0 +1,15 @@
+{
+  "attorney_id": "atty_015",
+  "attorney_name": "Friedman Kaplan Professional Liability Team",
+  "firm_name": "Friedman Kaplan Seiler Adelman & Robbins LLP",
+  "practice_area": ["professional_liability", "auditor_liability", "fraud_recovery"],
+  "specialization": "Professional malpractice and tort claims involving accountants and lawyers; breach of fiduciary duty; conspiracy and fraud claims against professionals",
+  "relevant_cases": ["Accountant and lawyer professional liability matters", "Fiduciary duty and conspiracy claims"],
+  "location": "New York, NY",
+  "contact_information": {"website": "https://www.fklaw.com/practices-Professional-Liability.html"},
+  "discovery_source": "Firm practice page",
+  "fit_score": 81,
+  "gatekeeper_focus": ["auditors", "professional advisors", "fiduciaries"],
+  "rating": "Tier 2 — NY boutique",
+  "notes": "NY-based boutique with explicit accountant/lawyer professional liability and fiduciary duty focus."
+}

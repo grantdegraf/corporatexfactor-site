@@ -1,0 +1,16 @@
+{
+  "outreach_id": "out_002",
+  "attorney_id": "atty_002",
+  "attorney_name": "Darren Check",
+  "firm": "Kessler Topaz Meltzer & Check, LLP",
+  "email": "dcheck@ktmc.com",
+  "phone": "610-822-2235",
+  "contact_method": "direct_email",
+  "fit_score": 91,
+  "status": "pending_operator_approval",
+  "outreach_draft": {
+    "subject": "Gatekeeper Liability Recovery — Post-Fraud Judgment Against Foreign Entity — Seeking Counsel",
+    "body": "Dear Mr. Check,\n\nI am reaching out in connection with a judgment monetization matter that may align with Kessler Topaz's accounting fraud and auditor liability practice.\n\nOur client holds an uncollected fraud judgment against an offshore foreign corporation. The defendant has no reachable assets. The recovery opportunity lies in gatekeeper liability — specifically, the auditors and professional advisors who certified or failed to report the fraudulent conduct. The strategy is settlement-leveraged: identify the gatekeeper's liability exposure and negotiate recovery without extended litigation.\n\nYour firm's recent $78M accounting fraud recovery for Catalent shareholders (December 2025) and the broader auditor liability track record at Kessler Topaz suggest strong alignment with this model.\n\nI would welcome a brief preliminary conversation to determine mutual interest and fit. No commitment implied — happy to share case details under a mutual NDA.\n\nSincerely,\n[SENDER_NAME]\nCorporate Z | Judgment Monetization Group"
+  },
+  "prepared_at": "2026-03-09T21:00:00Z"
+}

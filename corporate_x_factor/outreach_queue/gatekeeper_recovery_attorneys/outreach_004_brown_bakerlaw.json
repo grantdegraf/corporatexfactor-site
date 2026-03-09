@@ -1,0 +1,15 @@
+{
+  "outreach_id": "out_004",
+  "attorney_id": "atty_005",
+  "attorney_name": "Seanna R. Brown",
+  "firm": "BakerHostetler LLP",
+  "email": "contact via bakerlaw.com",
+  "contact_method": "firm_website_contact",
+  "fit_score": 90,
+  "status": "pending_operator_approval",
+  "outreach_draft": {
+    "subject": "Gatekeeper Liability Recovery — Uncollected Fraud Judgment Against Offshore Entity — Seeking Counsel",
+    "body": "Dear Ms. Brown,\n\nI am reaching out in connection with a judgment monetization matter that closely mirrors the offshore fraud recovery model your team at BakerHostetler has executed at scale.\n\nOur client holds an uncollected fraud judgment against an offshore foreign corporation (Chinese-registered entity). The defendant has no reachable assets. The recovery opportunity lies with the gatekeepers — auditors, financial institutions, professional advisors — who were positioned to identify or prevent the fraud. Settlement leverage, not direct litigation, is the preferred recovery path.\n\nBakerHostetler's international asset tracing experience — including the $860M+ Madoff recovery and multiple offshore fraud matters exceeding $500M — reflects direct expertise in exactly this structure.\n\nI would welcome a brief preliminary conversation to explore mutual interest and fit. No commitment implied. Case details available under mutual NDA.\n\nSincerely,\n[SENDER_NAME]\nCorporate Z | Judgment Monetization Group"
+  },
+  "prepared_at": "2026-03-09T21:00:00Z"
+}

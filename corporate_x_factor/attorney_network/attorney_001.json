@@ -1,0 +1,15 @@
+{
+  "attorney_id": "atty_001",
+  "attorney_name": "Samuel H. Rudman",
+  "firm_name": "Robbins Geller Rudman & Dowd LLP",
+  "practice_area": ["securities_fraud", "auditor_liability", "complex_fraud_litigation", "gatekeeper_liability"],
+  "specialization": "Securities fraud class actions; auditor and underwriter gatekeeper liability; recovered tens of billions for investors across major fraud matters",
+  "relevant_cases": ["HP Securities Fraud (appellate victory)", "Major auditor liability actions (multiple)", "Shareholder rights class actions"],
+  "location": "New York, NY (also San Diego)",
+  "contact_information": {"website": "https://www.rgrdlaw.com", "firm_phone": "212-554-1400"},
+  "discovery_source": "Legal directory / firm website",
+  "fit_score": 92,
+  "gatekeeper_focus": ["auditors", "underwriters", "third-party gatekeepers"],
+  "rating": "Tier 1 — Chambers, Benchmark Litigation ranked",
+  "notes": "Named Securities Group of the Year 2026 (Benchmark Litigation). Explicit gatekeeper liability focus in firm practice description."
+}

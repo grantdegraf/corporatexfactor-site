@@ -1,0 +1,15 @@
+{
+  "attorney_id": "atty_013",
+  "attorney_name": "Pearson Warshaw Professional Liability Team",
+  "firm_name": "Pearson Warshaw LLP",
+  "practice_area": ["professional_liability", "professional_negligence", "fraud_recovery"],
+  "specialization": "Plaintiff-side professional malpractice and fraud; prevailed across all types of professional malpractice cases",
+  "relevant_cases": ["Professional malpractice and fraud plaintiff victories (multiple)"],
+  "location": "Los Angeles, CA",
+  "contact_information": {"website": "https://pwfirm.com/professional-liability/"},
+  "discovery_source": "Firm practice page",
+  "fit_score": 80,
+  "gatekeeper_focus": ["professional advisors", "auditors"],
+  "rating": "Tier 2 — boutique plaintiff-side professional liability",
+  "notes": "Boutique with explicit plaintiff-side professional malpractice focus. Potential co-counsel for professional advisor gatekeeper claims."
+}

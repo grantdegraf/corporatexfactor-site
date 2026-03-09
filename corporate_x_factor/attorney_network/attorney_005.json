@@ -1,0 +1,15 @@
+{
+  "attorney_id": "atty_005",
+  "attorney_name": "Seanna R. Brown",
+  "firm_name": "BakerHostetler LLP",
+  "practice_area": ["asset_recovery", "international_fraud", "cross_border_enforcement", "complex_fraud_litigation"],
+  "specialization": "Global fraud and international asset tracing; offshore entity recovery; post-judgment enforcement against foreign structures",
+  "relevant_cases": ["Madoff Investment Securities — $860M+ recovery", "Multiple offshore fraud recoveries exceeding $500M–$1.05B"],
+  "location": "New York, NY / multiple offices",
+  "contact_information": {"website": "https://www.bakerlaw.com"},
+  "discovery_source": "Firm practice page / legal directory",
+  "fit_score": 90,
+  "gatekeeper_focus": ["offshore entities", "financial institutions", "fiduciaries"],
+  "rating": "Tier 1 — leading global fraud recovery practice",
+  "notes": "Direct fit for the model: offshore/Chinese entity defendant, judgment uncollectable, recovery via third-party liability. Madoff trustee experience is analogous."
+}

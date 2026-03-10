@@ -1,0 +1,27 @@
+{
+  "signature_id": "cxf_principal_signature_v1",
+  "principal_name": "Grant de Graf",
+  "principal_title": "Special Situations / Post-Judgment Recovery",
+  "organization": "CorporateXfactor",
+  "website": "corporatexfactor.com",
+  "telephone": "212-444-1813",
+  "signature_block": "Kind regards,\n\nGrant de Graf\nCorporateXfactor\nSpecial Situations / Post-Judgment Recovery\n\nWebsite: corporatexfactor.com\nTel 212-444-1813",
+  "default_from_email": "info@corporatexfactor.com",
+  "display_name": "Grant de Graf",
+  "rules": [
+    "All outreach must display sender name as 'Grant de Graf', never 'Corporate X-Factor Operations', 'Automation', 'Team', 'Group', or 'Desk'",
+    "Principal identity must be used for all high-value legal outreach",
+    "Automation may prepare emails but sender identity must remain human (Grant de Graf)",
+    "Signature block must be pulled from this config file — never hardcoded in templates"
+  ],
+  "anti_patterns": [
+    "Corporate X-Factor Operations",
+    "Judgment Monetization Group",
+    "Automation desk",
+    "CXF Operations",
+    "SureThing Automation",
+    "The Team"
+  ],
+  "last_updated": "2026-03-10",
+  "version": "1.0"
+}

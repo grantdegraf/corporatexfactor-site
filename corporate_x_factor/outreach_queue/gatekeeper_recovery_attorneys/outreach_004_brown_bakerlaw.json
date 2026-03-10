@@ -1,24 +1,48 @@
 {
   "outreach_id": "out_004",
+  "schema_version": "2.0",
+  "status": "approved_ready_to_send",
+  "send_priority": 3,
   "attorney_id": "atty_005",
   "attorney_name": "Seanna R. Brown",
   "firm": "BakerHostetler LLP",
   "email": "sbrown@bakerlaw.com",
-  "contact_method": "direct_email",
-  "fit_score": 90,
-  "status": "pending_operator_approval",
   "email_verified": true,
-  "existence_confirmed": true,
-  "outreach_draft": {
-    "subject": "Post-Judgment Gatekeeper Recovery — Chinese-Registered Entity — Offshore Fraud Judgment",
-    "body": "Dear Ms. Brown,\n\nI am reaching out in connection with a judgment monetization matter that closely mirrors the offshore fraud recovery model your team at BakerHostetler has executed at scale.\n\nOur client holds an uncollected fraud judgment against an offshore foreign corporation (Chinese-registered entity). The defendant has no reachable assets. The recovery opportunity lies with the gatekeepers — auditors, financial institutions, and professional advisors positioned to identify or prevent the fraud. Settlement leverage, not direct litigation against the debtor, is the preferred recovery path.\n\nYour work as principal deputy to Irving Picard in the Madoff SIPA matter — tracing and recovering billions across a global network of financial institution gatekeepers — reflects directly relevant expertise. BakerHostetler's broader international asset tracing and offshore fraud recovery experience, including matters exceeding $500M, confirms strong structural alignment.\n\nI would welcome a brief preliminary conversation to explore mutual interest and fit. No commitment implied. Case details available upon request.\n\nSincerely,\n\nCorporate X-Factor Operations\nJudgment Monetization Group\ncorporatezfactor.com"
+  "contact_method": "direct_email",
+  "routing_quality": "named_lead_litigator",
+  "recipient_fit_class": "DIRECT_FIT",
+  "plaintiff_side_confidence": "high",
+  "defense_conflict_risk": "low",
+  "why_this_recipient": "Brown led asset tracing and gatekeeper recovery for the Madoff SIPA Trustee, recovering billions across a global financial institution network. This is the exact recovery mechanic relevant to this matter — offshore fraud, non-debtor gatekeepers, asset tracing.",
+  "why_now": "Matter involves Chinese-registered offshore entity and non-debtor gatekeeper recovery — directly parallels Brown's Madoff cross-border enforcement work.",
+  "practice_match": "Post-judgment asset tracing, offshore fraud recovery, financial institution gatekeeper enforcement — highest structural match in batch.",
+  "economic_match": "Baker has previously accepted complex fraud recovery mandates with contingency components. Cross-border fraud recovery is a stated specialty.",
+  "routing_confidence": "high",
+  "conflict_screen_note": "No defense conflict signals. Brown's practice is plaintiff/trustee-side recovery.",
+  "batch_scores": {
+    "practice_fit": 91,
+    "plaintiff_side_alignment": 90,
+    "routing_confidence": 92,
+    "economic_relevance": 93,
+    "email_deliverability": 95,
+    "conflict_risk": 8
   },
-  "optimizations_applied": [
-    "Direct email found: sbrown@bakerlaw.com (was: firm website contact)",
-    "Added Madoff SIPA role — stronger credibility signal than generic $860M citation",
-    "Subject line updated to emphasize Chinese-registered entity (matches Brown's offshore experience)",
-    "Removed 'mutual NDA' language",
-    "Corporate X-Factor signature applied"
-  ],
-  "prepared_at": "2026-03-10T05:00:00Z"
+  "decision_log": {
+    "v1_issues": [
+      "Signature impersonal",
+      "'Professional failure enabled the fraud' — premature",
+      "Generic phrasing didn't anchor her specific Madoff SIPA principal role"
+    ],
+    "v2_changes": [
+      "Principal signature: Grant de Graf",
+      "Language corrected",
+      "Added economic filter line",
+      "Referenced Madoff SIPA principal role precisely"
+    ]
+  },
+  "outreach_draft": {
+    "subject": "Post-Judgment Recovery — Offshore Entity — Gatekeeper Enforcement Assessment",
+    "body": "Dear Ms. Brown,\n\nI am writing directly regarding a post-judgment recovery matter that closely parallels the offshore fraud and non-debtor gatekeeper enforcement work your team has executed at scale.\n\nOur client holds an unsatisfied fraud judgment against a Chinese-registered offshore corporation. Direct enforcement against the debtor is not viable. The recovery path we are assessing involves potential claims or leverage against non-debtor gatekeepers — auditors, financial institutions, and professional advisors whose role in the transaction or related conduct may warrant scrutiny.\n\nThe immediate objective is to assess whether viable recovery may be pursued against non-debtor gatekeepers, with early negotiated resolution preferred where feasible. The matter is only of interest if counsel sees a realistic path to material recovery against solvent non-debtor actors.\n\nYour work as principal deputy to Irving Picard in the Madoff SIPA matter — tracing and recovering billions against a global network of financial institution gatekeepers — reflects the precise enforcement mechanics this matter requires. BakerHostetler's broader international asset tracing and offshore fraud recovery experience confirms strong structural alignment.\n\nI would welcome a brief preliminary conversation. No commitment implied at this stage. Case details available upon request.\n\nKind regards,\n\nGrant de Graf\nCorporateXfactor\nSpecial Situations / Post-Judgment Recovery\n\nWebsite: corporatexfactor.com\nTel 212-444-1813"
+  },
+  "prepared_at": "2026-03-10T09:00:00Z"
 }

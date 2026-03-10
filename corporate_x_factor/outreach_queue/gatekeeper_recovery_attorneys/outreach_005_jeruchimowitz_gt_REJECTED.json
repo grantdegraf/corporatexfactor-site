@@ -1,0 +1,8 @@
+{
+  "outreach_id": "out_005_rejected",
+  "status": "target_rejected_fit_mismatch",
+  "attorney_name": "Howard K. Jeruchimowitz",
+  "firm": "Greenberg Traurig LLP",
+  "rejection_reason": "defense_conflict_risk=high — GT helped SEC drop securities fraud case (Feb 2026). Firm is not structurally aligned for plaintiff-side gatekeeper recovery first-wave outreach. Veil-piercing/post-judgment enforcement specialty does not cleanly map to auditor/gatekeeper recovery theory. Email address confirmed but target quality insufficient.",
+  "lesson_materialized": "A verified direct email does not justify inclusion if target quality is weak. Correct evaluation order: target fit → routing quality → conflict screen → wording."
+}

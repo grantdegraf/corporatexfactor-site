@@ -1,0 +1,93 @@
+{
+  "policy_id": "post_judgment_gatekeeper_recovery_outreach_v1",
+  "matter_type": "post_judgment_gatekeeper_recovery",
+  "version": "2.0",
+  "last_updated": "2026-03-10",
+  "recipient_fit_classification": {
+    "DIRECT_FIT": "Clear fit for plaintiff-side gatekeeper recovery / auditor or financial institution liability / cross-border enforcement against non-debtor actors",
+    "INDIRECT_FIT": "Related practice, not clearly lead attorney for this exact matter type. Acceptable with explicit justification.",
+    "INTAKE_OR_MONITORING": "May be a valid doorway, not the best substantive legal recipient. Flag for rerouting.",
+    "DEFENSE_SIDE_RISK": "Attorney/firm materially acts for defendants/gatekeepers in similar matters. Requires conflict analysis and reframing before outreach.",
+    "FIT_MISMATCH": "Practice too far from matter structure to justify first-wave outreach. Remove or replace."
+  },
+  "auto_advance_rule": "System must not auto-advance outreach unless recipient classification is DIRECT_FIT or documented INDIRECT_FIT",
+  "plaintiff_side_check": {
+    "field": "plaintiff_side_confidence",
+    "values": [
+      "high",
+      "medium",
+      "low"
+    ],
+    "rule": "If plaintiff_side_confidence=low: remove from first-wave outreach"
+  },
+  "defense_conflict_rule": {
+    "field": "defense_conflict_risk",
+    "values": [
+      "high",
+      "medium",
+      "low"
+    ],
+    "rule": "If defense_conflict_risk=high: do not auto-send. Reframe carefully or remove. Require explicit justification in batch report."
+  },
+  "routing_quality_levels": [
+    "named_lead_litigator",
+    "practice_chair",
+    "enforcement_specialist",
+    "asset_recovery_specialist",
+    "securities_litigator",
+    "intake_or_monitoring_contact",
+    "general_contact_page",
+    "team_mailbox",
+    "class_action_monitor",
+    "white_collar_defense_side"
+  ],
+  "routing_rule": "If routing is not 'named_lead_litigator' or 'practice_chair' or 'enforcement_specialist', system must propose reroute options and surface as routing decision — not bury in minor note.",
+  "required_fields_per_record": [
+    "why_this_recipient",
+    "why_now",
+    "practice_match",
+    "economic_match",
+    "routing_confidence",
+    "conflict_screen_note",
+    "recipient_fit_class",
+    "plaintiff_side_confidence",
+    "defense_conflict_risk"
+  ],
+  "messaging_rules": [
+    "Do NOT overstate that there will be no litigation — say 'early negotiated resolution preferred where feasible'",
+    "Do NOT state legal conclusions prematurely (e.g., 'whose professional failure enabled the fraud' → 'whose role may warrant scrutiny')",
+    "Do NOT sound like a claims broker or mass lead seller",
+    "Do NOT frame as abstract 'judgment monetization' without concrete recovery theory",
+    "DO frame as: post-judgment recovery assessment involving possible claims or leverage against solvent non-debtor gatekeepers",
+    "DO include one economic seriousness line: 'The matter is only of interest if counsel sees a realistic path to material recovery against solvent non-debtor actors.'",
+    "Preferred signal set: cross-border fraud, unsatisfied judgment, non-debtor recovery path, solvent gatekeepers, practical recovery economics, early resolution preferred where feasible",
+    "Outreach must sound like a credible principal evaluating a matter, not an automated lead-gen system"
+  ],
+  "approval_gate_triggers": [
+    "target rerouting required",
+    "defense-side conflict risk identified",
+    "uncertain recipient fit",
+    "replacement target required",
+    "highly customized strategic outreach",
+    "uncertain factual positioning"
+  ],
+  "approval_gate_non_triggers": [
+    "wording polish only — do NOT trigger approval gate for cosmetic changes"
+  ],
+  "batch_scoring_fields": [
+    "practice_fit_score",
+    "plaintiff_side_alignment_score",
+    "routing_confidence_score",
+    "economic_relevance_score",
+    "email_deliverability_score",
+    "conflict_risk_score"
+  ],
+  "exclusion_criteria": [
+    "Practice area materially misaligned",
+    "Target primarily defense-side for this issue cluster",
+    "System cannot articulate in one sentence why this lawyer is the correct recipient",
+    "Routing is generic with no named lawyer justified",
+    "Outreach theory being forced to fit a prestigious but poorly matched attorney"
+  ],
+  "replacement_search_rule": "If target rejected for fit mismatch: immediately search for replacement. Return at least 2 options. Explain why each is structurally stronger. Do not leave batch with dead slot unless search genuinely fails."
+}

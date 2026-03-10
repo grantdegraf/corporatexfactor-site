@@ -1,0 +1,53 @@
+{
+  "outreach_id": "out_005",
+  "schema_version": "2.0",
+  "status": "approved_ready_to_send",
+  "send_priority": 5,
+  "replaces": "out_005_jeruchimowitz_gt",
+  "replacement_reason": "Greenberg Traurig / Jeruchimowitz rejected — defense_conflict_risk=high (GT helped SEC drop securities fraud case Feb 2026), practice alignment insufficient for plaintiff-side gatekeeper recovery first-wave outreach.",
+  "attorney_id": "atty_new_005",
+  "attorney_name": "Daniel J. Fetterman",
+  "firm": "Kasowitz Benson Torres LLP",
+  "email": "dfetterman@kasowitz.com",
+  "email_verified": true,
+  "contact_method": "direct_email",
+  "routing_quality": "named_lead_litigator",
+  "recipient_fit_class": "DIRECT_FIT",
+  "plaintiff_side_confidence": "high",
+  "defense_conflict_risk": "low",
+  "why_this_recipient": "Fetterman served as plaintiff counsel in MF Global v. PricewaterhouseCoopers — suing MF Global's outside auditor for malpractice, arguing auditor negligence in recording $6.3B in transactions. This is the most direct public analog to the gatekeeper liability theory in this matter. He took a major auditor malpractice case to trial against a Big Four firm.",
+  "why_now": "The MF Global v. PwC matter (filed 2014, trial 2017) establishes Fetterman as one of the few litigators who has actually tried an auditor malpractice claim against a major accounting firm on behalf of a damaged party. That is exactly the profile this outreach needs.",
+  "practice_match": "Auditor malpractice (PwC trial), financial institution fraud recovery, post-insolvency recovery against professional service firms — direct structural match.",
+  "economic_match": "Kasowitz takes contingency mandates in complex commercial fraud. Matter economics are within their operating profile.",
+  "routing_confidence": "high",
+  "conflict_screen_note": "Kasowitz is primarily plaintiff-side complex commercial and fraud litigation. No defense conflict signals identified. Standard conflict check recommended before sending.",
+  "batch_scores": {
+    "practice_fit": 89,
+    "plaintiff_side_alignment": 88,
+    "routing_confidence": 90,
+    "economic_relevance": 87,
+    "email_deliverability": 92,
+    "conflict_risk": 12
+  },
+  "replacement_search_alternatives": {
+    "option_B_olav_haazen_ge": {
+      "attorney": "Olav A. Haazen",
+      "firm": "Grant & Eisenhofer P.A.",
+      "email": "ohaazen@gelaw.com",
+      "rationale": "25 years representing foreign and domestic plaintiffs in cross-border securities fraud, antitrust, and collective actions. G&E recovered $325M in Delphi accounting fraud. Strong cross-border and auditor liability alignment.",
+      "fit_class": "DIRECT_FIT",
+      "plaintiff_side_confidence": "high"
+    }
+  },
+  "decision_log": {
+    "original_target": "Howard K. Jeruchimowitz, Greenberg Traurig LLP",
+    "issue": "GT defense_conflict_risk=high (Feb 2026: helped SEC drop securities fraud case); practice alignment insufficient for plaintiff-side gatekeeper first-wave outreach; veil-piercing specialty does not cleanly map to gatekeeper recovery theory",
+    "decision": "target_rejected_fit_mismatch — removed from active send queue",
+    "replacement_rationale": "Fetterman selected over Haazen/G&E as primary replacement because: (1) he has actually taken an auditor malpractice claim to trial against PwC, (2) matter framing (non-debtor professional service firm liability) maps exactly to MF Global v. PwC theory, (3) Kasowitz is complex commercial boutique with contingency capacity"
+  },
+  "outreach_draft": {
+    "subject": "Post-Judgment Auditor Liability Recovery Assessment — Unsatisfied Fraud Judgment — Seeking Counsel",
+    "body": "Dear Mr. Fetterman,\n\nI am writing directly regarding a post-judgment recovery matter that may align with your practice in auditor and professional service firm liability.\n\nOur client holds an unsatisfied fraud judgment against an offshore foreign corporation. Direct enforcement against the debtor is not viable. The recovery path we are assessing involves potential claims or leverage against non-debtor gatekeepers — specifically auditors and professional advisors whose role in the transaction or related conduct may warrant scrutiny.\n\nThe immediate objective is to assess whether viable recovery may be pursued against non-debtor gatekeepers, with early negotiated resolution preferred where feasible. The matter is only of interest if counsel sees a realistic path to material recovery against solvent non-debtor actors.\n\nYour work as plaintiff counsel in MF Global v. PricewaterhouseCoopers — taking an auditor malpractice claim arising from material accounting failures to trial — reflects precisely the type of professional service firm accountability this recovery path involves.\n\nI would welcome a brief preliminary conversation. No commitment implied at this stage. Case details available upon request.\n\nKind regards,\n\nGrant de Graf\nCorporateXfactor\nSpecial Situations / Post-Judgment Recovery\n\nWebsite: corporatexfactor.com\nTel 212-444-1813"
+  },
+  "prepared_at": "2026-03-10T09:00:00Z"
+}

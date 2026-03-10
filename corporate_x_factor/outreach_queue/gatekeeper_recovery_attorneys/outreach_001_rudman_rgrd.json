@@ -1,23 +1,49 @@
 {
   "outreach_id": "out_001",
+  "schema_version": "2.0",
+  "status": "approved_ready_to_send",
+  "send_priority": 1,
   "attorney_id": "atty_001",
   "attorney_name": "Samuel H. Rudman",
   "firm": "Robbins Geller Rudman & Dowd LLP",
   "email": "SRudman@rgrdlaw.com",
-  "contact_method": "direct_email",
-  "fit_score": 92,
-  "status": "pending_operator_approval",
   "email_verified": true,
-  "existence_confirmed": true,
-  "outreach_draft": {
-    "subject": "Gatekeeper Liability Recovery — Offshore Fraud Judgment — Seeking Contingency Counsel",
-    "body": "Dear Mr. Rudman,\n\nI am reaching out regarding a judgment monetization matter that may align with Robbins Geller's work in securities fraud and gatekeeper liability recovery.\n\nOur client obtained a substantial default judgment against an offshore foreign corporation following adjudicated findings of fraud. The defendant has no reachable assets — direct enforcement is not viable. The recovery strategy focuses on gatekeeper liability: identifying auditors, underwriters, and other third-party gatekeepers whose professional failure enabled the fraud, and using that exposure to negotiate settlement.\n\nRobbins Geller's record in auditor and underwriter gatekeeper actions — including the HP securities fraud appellate victory, the $200M Motorola recovery, and multiple landmark class recoveries — reflects direct familiarity with this recovery model. I would welcome a brief preliminary conversation to determine whether this matter is the kind your firm would consider.\n\nNo commitment is implied at this stage. I am happy to provide additional case details if you see potential fit.\n\nThank you for your time.\n\nSincerely,\n\nCorporate X-Factor Operations\nJudgment Monetization Group\ncorporatezfactor.com"
+  "contact_method": "direct_email",
+  "routing_quality": "named_lead_litigator",
+  "recipient_fit_class": "DIRECT_FIT",
+  "plaintiff_side_confidence": "high",
+  "defense_conflict_risk": "low",
+  "why_this_recipient": "Rudman is among the most recognized plaintiff-side securities fraud and gatekeeper liability litigators in the U.S. RGRD has prosecuted auditor and underwriter liability claims at scale, with recoveries exceeding $200M in individual matters.",
+  "why_now": "Matter involves an offshore fraud judgment where gatekeeper liability is the primary recovery path — directly in RGRD's core practice area.",
+  "practice_match": "Securities fraud, auditor and underwriter liability, gatekeeper recovery — confirmed high match.",
+  "economic_match": "Contingency model aligns with RGRD's operating model. Recovery target against solvent non-debtor gatekeepers is within their typical matter economics.",
+  "routing_confidence": "high",
+  "conflict_screen_note": "No known conflict signals. RGRD is plaintiff-only firm.",
+  "batch_scores": {
+    "practice_fit": 92,
+    "plaintiff_side_alignment": 95,
+    "routing_confidence": 90,
+    "economic_relevance": 88,
+    "email_deliverability": 95,
+    "conflict_risk": 5
   },
-  "optimizations_applied": [
-    "Direct email found: SRudman@rgrdlaw.com (was: firm website contact)",
-    "Added $200M Motorola citation — more targeted than generic HP reference",
-    "Removed 'mutual NDA' language per outreach protocol",
-    "Corporate X-Factor signature with domain applied"
-  ],
-  "prepared_at": "2026-03-10T05:00:00Z"
+  "decision_log": {
+    "v1_issues": [
+      "Signature was 'Corporate X-Factor Operations' — impersonal",
+      "Language implied conclusive gatekeeper fault",
+      "No economic seriousness signal",
+      "Lacked 'early resolution preferred' framing"
+    ],
+    "v2_changes": [
+      "Principal signature: Grant de Graf",
+      "Removed 'professional failure enabled the fraud' → 'role may warrant scrutiny'",
+      "Added economic seriousness line",
+      "Added 'early negotiated resolution preferred where feasible'"
+    ]
+  },
+  "outreach_draft": {
+    "subject": "Post-Judgment Gatekeeper Recovery Assessment — Unsatisfied Fraud Judgment — Seeking Counsel",
+    "body": "Dear Mr. Rudman,\n\nI am writing to you directly regarding a post-judgment recovery matter that may align with Robbins Geller's gatekeeper liability practice.\n\nOur client holds an unsatisfied fraud judgment against an offshore foreign corporation. Direct enforcement against the debtor is not viable. The recovery opportunity we are assessing involves potential claims or leverage against non-debtor gatekeepers — auditors and related professional advisors whose role in the transaction or related conduct may warrant scrutiny.\n\nThe immediate objective is to assess whether viable recovery may be pursued against non-debtor gatekeepers, with early negotiated resolution preferred where feasible. The matter is only of interest if counsel sees a realistic path to material recovery against solvent non-debtor actors.\n\nRobbins Geller's track record in auditor and underwriter accountability — including the $200M Motorola recovery and your firm's sustained record in gatekeeper-related class recoveries — reflects directly relevant experience with this recovery structure.\n\nI would welcome a brief preliminary conversation to determine whether there is sufficient alignment to discuss further. No commitment implied at this stage.\n\nKind regards,\n\nGrant de Graf\nCorporateXfactor\nSpecial Situations / Post-Judgment Recovery\n\nWebsite: corporatexfactor.com\nTel 212-444-1813"
+  },
+  "prepared_at": "2026-03-10T09:00:00Z"
 }

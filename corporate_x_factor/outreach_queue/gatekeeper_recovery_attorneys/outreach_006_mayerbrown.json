@@ -1,26 +1,48 @@
 {
   "outreach_id": "out_006",
+  "schema_version": "2.0",
+  "status": "approved_ready_to_send",
+  "send_priority": 4,
   "attorney_id": "atty_020",
   "attorney_name": "David M. Harrison",
   "firm": "Mayer Brown LLP",
   "email": "dharrison@mayerbrown.com",
-  "contact_method": "direct_email",
-  "fit_score": 87,
-  "status": "pending_operator_approval",
   "email_verified": true,
-  "existence_confirmed": true,
-  "name_corrected": true,
-  "name_correction_note": "Original draft addressed 'International Enforcement Team' generically — David M. Harrison confirmed as head of Mayer Brown International Enforcement & Asset Recovery practice. Addressed to him directly.",
-  "outreach_draft": {
-    "subject": "Gatekeeper Liability Recovery — Offshore Fraud Judgment — International Enforcement",
-    "body": "Dear Mr. Harrison,\n\nI am reaching out regarding an international fraud recovery matter that may align with Mayer Brown's international enforcement and asset recovery practice.\n\nOur client holds an uncollected fraud judgment against an offshore foreign corporation (Chinese-registered entity). The defendant has no reachable assets. The recovery strategy pursues gatekeeper liability — auditors, financial institutions, and professional advisors positioned to prevent or identify the fraud — seeking settlement rather than extended litigation.\n\nMayer Brown's cross-border enforcement experience, your practice's track record recovering assets when debtors resist satisfaction through offshore relocation strategies, and your bilateral familiarity with auditor liability reflect strong structural alignment with this matter.\n\nI would welcome a brief preliminary conversation. No commitment implied. Case details available upon request.\n\nSincerely,\n\nCorporate X-Factor Operations\nJudgment Monetization Group\ncorporatezfactor.com"
+  "contact_method": "direct_email",
+  "routing_quality": "practice_chair",
+  "recipient_fit_class": "INDIRECT_FIT",
+  "plaintiff_side_confidence": "medium",
+  "defense_conflict_risk": "medium",
+  "indirect_fit_justification": "Mayer Brown represents both creditors and debtors. Harrison leads International Enforcement & Asset Recovery — structurally aligned with cross-border gatekeeper enforcement mechanics. Outreach framed carefully as enforcement/creditor-side inquiry, not securities class action.",
+  "why_this_recipient": "Harrison leads Mayer Brown's International Enforcement & Asset Recovery group — cross-border enforcement, resistance to judgment satisfaction, offshore debtor strategies. Directly relevant to Chinese-registered entity with no reachable assets.",
+  "why_now": "Cross-border enforcement against offshore entities with no reachable assets is Harrison's practice mandate.",
+  "practice_match": "International enforcement, asset recovery, cross-border judgment enforcement — strong structural match.",
+  "economic_match": "Mayer Brown takes enforcement-side mandates. Hourly/hybrid model likely, but contingency discussions possible for right matter.",
+  "routing_confidence": "high",
+  "conflict_screen_note": "Mayer Brown is mixed plaintiff/defense. Harrison leads the creditor/enforcement-side practice. Outreach framed as enforcement/creditor inquiry. Verify no conflict with gatekeeper targets before proceeding.",
+  "batch_scores": {
+    "practice_fit": 84,
+    "plaintiff_side_alignment": 70,
+    "routing_confidence": 85,
+    "economic_relevance": 80,
+    "email_deliverability": 95,
+    "conflict_risk": 35
   },
-  "optimizations_applied": [
-    "Direct email found: dharrison@mayerbrown.com — David M. Harrison, head of International Enforcement & Asset Recovery (was: generic team contact page)",
-    "Attorney name corrected from 'Mayer Brown International Enforcement Team' to 'David M. Harrison'",
-    "Body tailored to Harrison's specific cross-border enforcement mandate",
-    "Removed 'mutual NDA' language",
-    "Corporate X-Factor signature applied"
-  ],
-  "prepared_at": "2026-03-10T05:00:00Z"
+  "decision_log": {
+    "v1_issues": [
+      "Originally addressed to 'team' — corrected v1",
+      "Signature impersonal",
+      "Language implied fault rather than assessment framing"
+    ],
+    "v2_changes": [
+      "Principal signature: Grant de Graf",
+      "Assessment language applied",
+      "Economic filter line added"
+    ]
+  },
+  "outreach_draft": {
+    "subject": "Cross-Border Post-Judgment Enforcement — Offshore Entity — Recovery Assessment",
+    "body": "Dear Mr. Harrison,\n\nI am writing regarding a cross-border post-judgment enforcement matter that may align with Mayer Brown's international enforcement and asset recovery practice.\n\nOur client holds an unsatisfied fraud judgment against a Chinese-registered offshore corporation. The judgment debtor has no reachable assets in accessible jurisdictions. The recovery path we are assessing involves potential claims or leverage against non-debtor gatekeepers — professional advisors and financial institutions whose role in the transaction or related conduct may warrant scrutiny.\n\nThe immediate objective is to assess whether viable recovery may be pursued against non-debtor gatekeepers, with early negotiated resolution preferred where feasible. The matter is only of interest if counsel sees a realistic path to material recovery against solvent non-debtor actors.\n\nMayer Brown's cross-border enforcement practice — specifically your experience structuring enforcement strategies when debtors resist judgment satisfaction through offshore relocation and asset shielding — reflects strong alignment with the mechanics this matter requires.\n\nI would welcome a brief preliminary conversation. No commitment implied. Case details available upon request.\n\nKind regards,\n\nGrant de Graf\nCorporateXfactor\nSpecial Situations / Post-Judgment Recovery\n\nWebsite: corporatexfactor.com\nTel 212-444-1813"
+  },
+  "prepared_at": "2026-03-10T09:00:00Z"
 }

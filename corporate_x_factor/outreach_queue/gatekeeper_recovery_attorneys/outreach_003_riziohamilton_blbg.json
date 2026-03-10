@@ -1,24 +1,47 @@
 {
   "outreach_id": "out_003",
+  "schema_version": "2.0",
+  "status": "approved_ready_to_send",
+  "send_priority": 2,
   "attorney_id": "atty_004",
   "attorney_name": "John Rizio-Hamilton",
   "firm": "Bernstein Litowitz Berger & Grossmann LLP",
   "email": "johnr@blbglaw.com",
-  "contact_method": "direct_email",
-  "fit_score": 93,
-  "status": "pending_operator_approval",
   "email_verified": true,
-  "existence_confirmed": true,
-  "outreach_draft": {
-    "subject": "Gatekeeper Liability Recovery — Offshore Fraud Judgment — Bank & Underwriter Exposure",
-    "body": "Dear Mr. Rizio-Hamilton,\n\nI am reaching out regarding a gatekeeper liability recovery matter that may align with Bernstein Litowitz's work in underwriter and financial institution fraud recovery.\n\nOur client holds a substantial uncollected fraud judgment against an offshore foreign corporation. Direct enforcement is not viable. The recovery strategy targets financial institution and underwriter gatekeepers — entities positioned to identify or prevent the fraud who failed to act. The preferred path is negotiated settlement using identified liability exposure as leverage.\n\nYour firm's $3.3B recovery in the Viacom-Archegos matter, the $150M JPMorgan Chase recovery, and the $2.425B BankAmerica settlement reflect exactly the type of financial institution gatekeeper recovery model we are pursuing.\n\nI would welcome a brief preliminary conversation. No commitment implied.\n\nSincerely,\n\nCorporate X-Factor Operations\nJudgment Monetization Group\ncorporatezfactor.com"
+  "contact_method": "direct_email",
+  "routing_quality": "named_lead_litigator",
+  "recipient_fit_class": "DIRECT_FIT",
+  "plaintiff_side_confidence": "high",
+  "defense_conflict_risk": "low",
+  "why_this_recipient": "Rizio-Hamilton is Co-Head of Securities Litigation at BLBG — the most senior correct contact at the firm most aligned with this matter type. BLBG has the largest auditor and financial institution gatekeeper recovery track record of any firm on the list.",
+  "why_now": "The matter's gatekeeper exposure pattern maps to BLBG's most cited recovery structures, including the EY Lehman $99M settlement and BankAmerica $2.425B recovery.",
+  "practice_match": "Auditor liability, underwriter/bank gatekeeper liability, securities fraud — highest match in batch.",
+  "economic_match": "BLBG operates on contingency for institutional plaintiff work. Matter economics align.",
+  "routing_confidence": "high",
+  "conflict_screen_note": "BLBG is plaintiff-only firm. No defense conflict risk identified.",
+  "batch_scores": {
+    "practice_fit": 93,
+    "plaintiff_side_alignment": 98,
+    "routing_confidence": 95,
+    "economic_relevance": 90,
+    "email_deliverability": 95,
+    "conflict_risk": 2
   },
-  "optimizations_applied": [
-    "Direct email found: johnr@blbglaw.com (was: firm website contact)",
-    "Added $2.425B BankAmerica citation — stronger precedent set",
-    "Rizio-Hamilton is Co-Head Securities Litigation — ideal contact confirmed",
-    "Removed 'mutual NDA' language",
-    "Corporate X-Factor signature applied"
-  ],
-  "prepared_at": "2026-03-10T05:00:00Z"
+  "decision_log": {
+    "v1_issues": [
+      "Signature impersonal",
+      "'Professional failure enabled the fraud' — premature legal conclusion",
+      "No economic filter signal"
+    ],
+    "v2_changes": [
+      "Principal signature: Grant de Graf",
+      "Language corrected to 'role may warrant scrutiny'",
+      "Added economic seriousness line and 'early resolution preferred' framing"
+    ]
+  },
+  "outreach_draft": {
+    "subject": "Post-Judgment Gatekeeper Recovery — Offshore Fraud Judgment — Financial Institution Exposure Assessment",
+    "body": "Dear Mr. Rizio-Hamilton,\n\nI am writing regarding a post-judgment recovery matter that may align with Bernstein Litowitz's financial institution and auditor liability practice.\n\nOur client holds an unsatisfied fraud judgment against an offshore foreign corporation. Direct enforcement against the debtor is not viable. The recovery path we are assessing involves potential claims or leverage against non-debtor gatekeepers — financial institutions and related professional advisors whose role in the transaction or related conduct may warrant scrutiny.\n\nThe immediate objective is to assess whether viable recovery may be pursued against non-debtor gatekeepers, with early negotiated resolution preferred where feasible. The matter is only of interest if counsel sees a realistic path to material recovery against solvent non-debtor actors.\n\nBernstein Litowitz's record in financial institution accountability — the $2.425B BankAmerica recovery, the $150M JPMorgan settlement, and your firm's sustained track record in auditor liability matters — reflects the most directly relevant experience with this recovery structure of any firm I am approaching.\n\nI would welcome a brief preliminary conversation to assess fit. No commitment implied.\n\nKind regards,\n\nGrant de Graf\nCorporateXfactor\nSpecial Situations / Post-Judgment Recovery\n\nWebsite: corporatexfactor.com\nTel 212-444-1813"
+  },
+  "prepared_at": "2026-03-10T09:00:00Z"
 }

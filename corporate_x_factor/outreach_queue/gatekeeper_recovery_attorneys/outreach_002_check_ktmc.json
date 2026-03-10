@@ -1,24 +1,42 @@
 {
   "outreach_id": "out_002",
+  "schema_version": "2.0",
+  "status": "reroute_required",
+  "send_priority": 6,
   "attorney_id": "atty_002",
   "attorney_name": "Darren Check",
   "firm": "Kessler Topaz Meltzer & Check LLP",
   "email": "dcheck@ktmc.com",
-  "contact_method": "direct_email",
-  "fit_score": 91,
-  "status": "pending_operator_approval",
   "email_verified": true,
-  "existence_confirmed": true,
-  "routing_flag": "NOTE: Darren Check is portfolio monitoring lead, not gatekeeper litigator. Consider routing to KTMC litigation department instead or CC-ing David Kessler/Matthew Mustokoff. Operator decision required.",
-  "outreach_draft": {
-    "subject": "Gatekeeper Liability Recovery — Post-Fraud Judgment Against Foreign Entity — Seeking Counsel",
-    "body": "Dear Mr. Check,\n\nI am reaching out in connection with a judgment monetization matter that may align with Kessler Topaz's accounting fraud and auditor liability practice.\n\nOur client holds an uncollected fraud judgment against an offshore foreign corporation. The defendant has no reachable assets. The recovery opportunity lies in gatekeeper liability — specifically, the auditors and professional advisors who certified or failed to report the fraudulent conduct. The strategy is settlement-leveraged: identify the gatekeeper's liability exposure and negotiate recovery.\n\nKessler Topaz's recent $78M accounting fraud recovery for Catalent shareholders and the firm's broader auditor liability track record suggest strong alignment with this model.\n\nI would welcome a brief preliminary conversation to determine mutual interest and fit. No commitment implied.\n\nSincerely,\n\nCorporate X-Factor Operations\nJudgment Monetization Group\ncorporatezfactor.com"
+  "contact_method": "direct_email",
+  "routing_quality": "intake_or_monitoring_contact",
+  "recipient_fit_class": "INTAKE_OR_MONITORING",
+  "plaintiff_side_confidence": "high",
+  "defense_conflict_risk": "low",
+  "routing_issue": "Darren Check manages SecuritiesTracker — KTMC's institutional investor portfolio monitoring and claims filing service. He evaluates claim eligibility and manages class action monitoring, not gatekeeper enforcement litigation. For a post-judgment gatekeeper enforcement mandate, he is an intake door, not the correct substantive contact.",
+  "why_this_recipient": "KTMC has strong gatekeeper accountability track record. Darren Check is a valid entry point but not the lead litigator for this matter type.",
+  "routing_confidence": "low",
+  "conflict_screen_note": "KTMC is plaintiff-only. No conflict risk.",
+  "reroute_options": {
+    "option_A": {
+      "action": "Re-address to Matthew Mustokoff — KTMC litigation partner, securities fraud and institutional investor enforcement",
+      "email": "mmustokoff@ktmc.com",
+      "rationale": "Mustokoff is a named litigation partner at KTMC with a public record in securities fraud enforcement. Better substantive doorway for a gatekeeper enforcement mandate.",
+      "routing_quality": "named_lead_litigator"
+    },
+    "option_B": {
+      "action": "Send to Darren Check AND CC David Kessler — name Check as the initial contact but surface it to senior litigation leadership simultaneously",
+      "email_to": "dcheck@ktmc.com",
+      "email_cc": "dkessler@ktmc.com",
+      "rationale": "Uses Check as formal entry point (less confrontational) while ensuring the matter surfaces to a senior litigator immediately.",
+      "routing_quality": "intake_plus_senior_cc"
+    }
   },
-  "optimizations_applied": [
-    "Email already direct: dcheck@ktmc.com (confirmed valid)",
-    "Added routing flag — Check is claims/monitoring lead, not ideal for gatekeeper litigation matter",
-    "Removed 'mutual NDA' language",
-    "Corporate X-Factor signature applied"
-  ],
-  "prepared_at": "2026-03-10T05:00:00Z"
+  "operator_decision_required": "Choose Option A (reroute to Mustokoff directly) or Option B (send to Check, CC Kessler). Current draft below assumes Option A.",
+  "outreach_draft": {
+    "to": "mmustokoff@ktmc.com",
+    "subject": "Post-Judgment Gatekeeper Recovery Assessment — Unsatisfied Fraud Judgment — Seeking Counsel",
+    "body": "Dear Mr. Mustokoff,\n\nI am writing regarding a post-judgment recovery matter that may align with Kessler Topaz's gatekeeper liability and securities fraud recovery practice.\n\nOur client holds an unsatisfied fraud judgment against an offshore foreign corporation. Direct enforcement against the debtor is not viable. The recovery path we are assessing involves potential claims or leverage against non-debtor gatekeepers — auditors and related professional advisors whose role in the transaction or related conduct may warrant scrutiny.\n\nThe immediate objective is to assess whether viable recovery may be pursued against non-debtor gatekeepers, with early negotiated resolution preferred where feasible. The matter is only of interest if counsel sees a realistic path to material recovery against solvent non-debtor actors.\n\nKessler Topaz's record in auditor accountability and gatekeeper-focused securities recoveries reflects strong alignment with the enforcement structure this matter requires.\n\nI would welcome a brief preliminary conversation to explore fit. No commitment implied.\n\nKind regards,\n\nGrant de Graf\nCorporateXfactor\nSpecial Situations / Post-Judgment Recovery\n\nWebsite: corporatexfactor.com\nTel 212-444-1813"
+  },
+  "prepared_at": "2026-03-10T09:00:00Z"
 }

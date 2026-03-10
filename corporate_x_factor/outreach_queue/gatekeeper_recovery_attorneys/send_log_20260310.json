@@ -1,0 +1,112 @@
+{
+  "batch_id": "cxf_gatekeeper_v2_20260310",
+  "batch_version": "2.0",
+  "sent_at": "2026-03-10T10:42:00+02:00",
+  "sender_from": "info@corporatexfactor.com",
+  "sender_display_name": "Grant de Graf",
+  "sender_profile": "cxf_principal_signature_v1",
+  "total_sent": 6,
+  "total_failed": 0,
+  "emails": [
+    {
+      "id": "out_001",
+      "attorney": "Samuel H. Rudman",
+      "firm": "Robbins Geller Rudman & Dowd LLP",
+      "to": "SRudman@rgrdlaw.com",
+      "from": "info@corporatexfactor.com",
+      "subject": "Post-Judgment Gatekeeper Recovery Assessment — Unsatisfied Fraud Judgment — Seeking Counsel",
+      "status": "SENT",
+      "mail_id": "<19cd6ea991c.1da460d9980917.357516831897812864@corporatexfactor.com>",
+      "message_id": "1773132225601138300",
+      "zoho_status_code": 200
+    },
+    {
+      "id": "out_002",
+      "attorney": "Matthew Mustokoff",
+      "firm": "Kessler Topaz Meltzer & Check LLP",
+      "to": "mmustokoff@ktmc.com",
+      "from": "info@corporatexfactor.com",
+      "subject": "Post-Judgment Gatekeeper Recovery Assessment — Unsatisfied Fraud Judgment — Seeking Counsel",
+      "status": "SENT",
+      "mail_id": "<19cd6eaa157.2e1abfb6972729.4907499215779292792@corporatexfactor.com>",
+      "message_id": "1773132227306155300",
+      "zoho_status_code": 200
+    },
+    {
+      "id": "out_003",
+      "attorney": "John Rizio-Hamilton",
+      "firm": "Bernstein Litowitz Berger & Grossmann LLP",
+      "to": "johnr@blbglaw.com",
+      "from": "info@corporatexfactor.com",
+      "subject": "Post-Judgment Gatekeeper Recovery — Offshore Fraud Judgment — Financial Institution Exposure Assessment",
+      "status": "SENT",
+      "mail_id": "<19cd6eaa939.2db84ebc990860.9135170253246246835@corporatexfactor.com>",
+      "message_id": "1773132229154155100",
+      "zoho_status_code": 200
+    },
+    {
+      "id": "out_004",
+      "attorney": "Seanna R. Brown",
+      "firm": "BakerHostetler LLP",
+      "to": "sbrown@bakerlaw.com",
+      "from": "info@corporatexfactor.com",
+      "subject": "Post-Judgment Recovery — Offshore Entity — Gatekeeper Enforcement Assessment",
+      "status": "SENT",
+      "mail_id": "<19cd6eaaeca.22a16d01972733.8208425626112748433@corporatexfactor.com>",
+      "message_id": "1773132230474155300",
+      "zoho_status_code": 200
+    },
+    {
+      "id": "out_005",
+      "attorney": "David M. Harrison",
+      "firm": "Mayer Brown LLP",
+      "to": "dharrison@mayerbrown.com",
+      "from": "info@corporatexfactor.com",
+      "subject": "Cross-Border Post-Judgment Enforcement — Offshore Entity — Recovery Assessment",
+      "status": "SENT",
+      "mail_id": "<19cd6eab3d0.53912e98983153.1612042261882231609@corporatexfactor.com>",
+      "message_id": "1773132232410138400",
+      "zoho_status_code": 200
+    },
+    {
+      "id": "out_006",
+      "attorney": "Daniel J. Fetterman",
+      "firm": "Kasowitz Benson Torres LLP",
+      "to": "dfetterman@kasowitz.com",
+      "from": "info@corporatexfactor.com",
+      "subject": "Post-Judgment Auditor Liability Recovery Assessment — Unsatisfied Fraud Judgment — Seeking Counsel",
+      "status": "SENT",
+      "mail_id": "<19cd6eabbb6.793ec49d972736.3130378198211795589@corporatexfactor.com>",
+      "message_id": "1773132233757155300",
+      "zoho_status_code": 200
+    }
+  ],
+  "deliverability_audit": {
+    "checked_at": "2026-03-10T10:42:00+02:00",
+    "domain": "corporatexfactor.com",
+    "zoho_smtp_status": "ACTIVE — sends confirmed 2026-03-10",
+    "spf_status": "REQUIRES_VERIFICATION — Zoho SPF TXT record (include:zohomail.com -all) must be confirmed in DNS admin",
+    "dkim_status": "REQUIRES_VERIFICATION — Zoho DKIM selector must be confirmed in Zoho Mail Admin Console > Domains > DKIM",
+    "dmarc_status": "REQUIRES_VERIFICATION — DMARC TXT record (_dmarc.corporatexfactor.com) should be configured",
+    "blocklist_spamhaus": "NOT_LISTED — domain confirmed not on Spamhaus DBL as of 2026-03-10",
+    "blocklist_barracuda": "NOT_CHECKED — new domain, low risk; check at barracudacentral.org if deliverability issues arise",
+    "blocklist_mxtoolbox": "NOT_CHECKED — run mxtoolbox.com/blacklists.aspx against Zoho sending IP if bounce rate > 5%",
+    "domain_age_note": "corporatexfactor.com is a newer domain — some receiving servers apply heightened scrutiny to young domains. Monitor bounce rate on first batch.",
+    "recommended_actions": [
+      "Verify SPF record in DNS: TXT @ v=spf1 include:zohomail.com -all",
+      "Verify DKIM in Zoho Admin Console > Domains > Email Configuration > DKIM",
+      "Add DMARC record: _dmarc TXT v=DMARC1; p=none; rua=mailto:info@corporatexfactor.com",
+      "Monitor first-batch bounce rate — if >5%, run IP blocklist check"
+    ]
+  },
+  "follow_up_schedule": {
+    "day_3": "2026-03-13",
+    "day_3_action": "Check Zoho Sent/Bounce logs for any hard bounces or non-delivery reports on all 6 addresses",
+    "day_7": "2026-03-17",
+    "day_7_action": "If no reply from any recipient: assess whether to send polite follow-up or hold. Do not send unsolicited follow-up to litigation partners within 7 days — hold to day 10.",
+    "day_10": "2026-03-20",
+    "day_10_action": "Send one follow-up email to any recipient with no reply. Subject line: Re: [original subject] — Brief Follow-Up. One sentence. Reference original email.",
+    "day_21": "2026-03-31",
+    "day_21_action": "Final status assessment. Any no-response records flagged as 'no_response_21d'. Consider adding 2 replacement targets from Wave 2 candidate list."
+  }
+}

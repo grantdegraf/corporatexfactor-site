@@ -2,15 +2,23 @@
   "outreach_id": "out_002",
   "attorney_id": "atty_002",
   "attorney_name": "Darren Check",
-  "firm": "Kessler Topaz Meltzer & Check, LLP",
+  "firm": "Kessler Topaz Meltzer & Check LLP",
   "email": "dcheck@ktmc.com",
-  "phone": "610-822-2235",
   "contact_method": "direct_email",
   "fit_score": 91,
   "status": "pending_operator_approval",
+  "email_verified": true,
+  "existence_confirmed": true,
+  "routing_flag": "NOTE: Darren Check is portfolio monitoring lead, not gatekeeper litigator. Consider routing to KTMC litigation department instead or CC-ing David Kessler/Matthew Mustokoff. Operator decision required.",
   "outreach_draft": {
     "subject": "Gatekeeper Liability Recovery — Post-Fraud Judgment Against Foreign Entity — Seeking Counsel",
-    "body": "Dear Mr. Check,\n\nI am reaching out in connection with a judgment monetization matter that may align with Kessler Topaz's accounting fraud and auditor liability practice.\n\nOur client holds an uncollected fraud judgment against an offshore foreign corporation. The defendant has no reachable assets. The recovery opportunity lies in gatekeeper liability — specifically, the auditors and professional advisors who certified or failed to report the fraudulent conduct. The strategy is settlement-leveraged: identify the gatekeeper's liability exposure and negotiate recovery without extended litigation.\n\nYour firm's recent $78M accounting fraud recovery for Catalent shareholders (December 2025) and the broader auditor liability track record at Kessler Topaz suggest strong alignment with this model.\n\nI would welcome a brief preliminary conversation to determine mutual interest and fit. No commitment implied — happy to share case details under a mutual NDA.\n\nSincerely,\n[SENDER_NAME]\nCorporate Z | Judgment Monetization Group"
+    "body": "Dear Mr. Check,\n\nI am reaching out in connection with a judgment monetization matter that may align with Kessler Topaz's accounting fraud and auditor liability practice.\n\nOur client holds an uncollected fraud judgment against an offshore foreign corporation. The defendant has no reachable assets. The recovery opportunity lies in gatekeeper liability — specifically, the auditors and professional advisors who certified or failed to report the fraudulent conduct. The strategy is settlement-leveraged: identify the gatekeeper's liability exposure and negotiate recovery.\n\nKessler Topaz's recent $78M accounting fraud recovery for Catalent shareholders and the firm's broader auditor liability track record suggest strong alignment with this model.\n\nI would welcome a brief preliminary conversation to determine mutual interest and fit. No commitment implied.\n\nSincerely,\n\nCorporate X-Factor Operations\nJudgment Monetization Group\ncorporatezfactor.com"
   },
-  "prepared_at": "2026-03-09T21:00:00Z"
+  "optimizations_applied": [
+    "Email already direct: dcheck@ktmc.com (confirmed valid)",
+    "Added routing flag — Check is claims/monitoring lead, not ideal for gatekeeper litigation matter",
+    "Removed 'mutual NDA' language",
+    "Corporate X-Factor signature applied"
+  ],
+  "prepared_at": "2026-03-10T05:00:00Z"
 }

@@ -1,0 +1,21 @@
+{
+  "template_id": "cxf_case_brief_v1",
+  "version": "1.0",
+  "last_updated": "2026-03-10",
+  "purpose": "1-page case summary ready to send when attorney replies with interest.",
+  "status": "AWAITING_OPERATOR_INPUT",
+  "fields": {
+    "judgment_amount": "[ PENDING ]",
+    "judgment_date": "[ PENDING ]",
+    "jurisdiction": "[ PENDING ]",
+    "defendant_entity": "[ PENDING ]",
+    "enforcement_status": "[ PENDING \u2014 why direct enforcement failed ]",
+    "potential_gatekeepers": "[ PENDING \u2014 auditors, underwriters, financial institutions; role in transaction ]",
+    "recovery_strategy_outline": "[ PENDING ]",
+    "estimated_recovery_potential": "[ PENDING ]",
+    "cross_border_elements": "[ PENDING ]",
+    "preferred_engagement_structure": "Contingency preferred; open to hybrid arrangements for the right counsel"
+  },
+  "usage_instruction": "When attorney replies with positive interest, populate all fields and send as clean 1-page summary. File completed brief to: corporate_x_factor/case_materials/case_brief_YYYYMMDD.pdf",
+  "terminology_reminder": "Use 'Post-Judgment Recovery' externally. Never use 'Judgment Monetization' in attorney-facing materials."
+}

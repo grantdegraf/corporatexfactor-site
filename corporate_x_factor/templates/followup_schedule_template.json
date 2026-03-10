@@ -1,0 +1,26 @@
+{
+  "template_id": "cxf_followup_v1",
+  "version": "1.0",
+  "last_updated": "2026-03-10",
+  "schedule": {
+    "followup_1_days": 5,
+    "followup_2_days": 12,
+    "note": "Day count from original send date. Do not follow up if reply received."
+  },
+  "followup_1": {
+    "subject_prefix": "Re: ",
+    "subject_note": "Prepend 'Re: ' to the original subject line",
+    "body": "Just following up in case the note below is of interest.\n\nHappy to provide additional background if helpful.\n\n[SIGNATURE_BLOCK]"
+  },
+  "followup_2": {
+    "subject_prefix": "Re: ",
+    "subject_note": "Same subject as follow-up 1",
+    "body": "Circling back one final time. If the matter isn't a fit, no further follow-up from us.\n\nIf timing or circumstances change, the offer to share a brief case summary remains open.\n\n[SIGNATURE_BLOCK]"
+  },
+  "stop_conditions": [
+    "reply_received_any_kind",
+    "hard_bounce_detected",
+    "explicit_decline"
+  ],
+  "signature_source": "corporate_x_factor/config/outreach_sender_profile.json"
+}

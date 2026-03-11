@@ -39,7 +39,7 @@
     "followup_2_status": "scheduled",
     "recipient_fit_class": "DIRECT_FIT",
     "routing_quality": "named_lead_litigator",
-    "notes": "Rerouted from Darren Check (intake) to Mustokoff (litigation partner)"
+    "notes": "Rerouted from Darren Check (intake/monitoring) to Mustokoff (litigation partner) \u2014 Option A"
   },
   {
     "log_id": "cxf_log_003",
@@ -73,15 +73,20 @@
     "sent_from": "info@corporatexfactor.com",
     "subject": "Post-Judgment Recovery \u2014 Offshore Entity \u2014 Gatekeeper Enforcement Assessment",
     "delivery_status": "sent",
-    "bounce_status": "pending_day3_check",
-    "reply_status": "no_reply",
-    "followup_1_date": "2026-03-15",
-    "followup_1_status": "scheduled",
-    "followup_2_date": "2026-03-22",
-    "followup_2_status": "scheduled",
-    "recipient_fit_class": "DIRECT_FIT",
-    "routing_quality": "named_lead_litigator",
-    "notes": ""
+    "bounce_status": "confirmed_delivered",
+    "reply_status": "replied_positive",
+    "reply_received_at": "2026-03-11",
+    "reply_interest_level": "positive_interest",
+    "reply_summary": "Happy to chat. Today busy. Tomorrow (Mar 12) afternoon free.",
+    "operator_reply_sent": true,
+    "operator_reply_date": "2026-03-11",
+    "pipeline_status": "engaged_prospect",
+    "meeting_status": "being_scheduled",
+    "meeting_target_date": "2026-03-12",
+    "followup_1_status": "suppressed_replied",
+    "followup_2_status": "suppressed_replied",
+    "next_action": "confirm_meeting_time",
+    "notes": "First warm response from batch. Replied same day (1 day after send). Madoff/SIPA background confirms strong fit alignment."
   },
   {
     "log_id": "cxf_log_005",
@@ -102,7 +107,7 @@
     "followup_2_status": "scheduled",
     "recipient_fit_class": "INDIRECT_FIT",
     "routing_quality": "practice_chair",
-    "notes": "Verify no conflict before follow-up"
+    "notes": "Mixed firm \u2014 verify no conflict with gatekeeper targets before follow-up"
   },
   {
     "log_id": "cxf_log_006",
@@ -123,6 +128,6 @@
     "followup_2_status": "scheduled",
     "recipient_fit_class": "DIRECT_FIT",
     "routing_quality": "named_lead_litigator",
-    "notes": "Replaces Jeruchimowitz/GT (rejected: defense_conflict_risk=high)"
+    "notes": "Replaces Howard Jeruchimowitz / GT (rejected: defense_conflict_risk=high)"
   }
 ]
